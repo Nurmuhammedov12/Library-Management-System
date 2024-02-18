@@ -1,5 +1,3 @@
-
-Hallo World!
 CORPORATION
 
 
