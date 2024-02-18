@@ -26,6 +26,7 @@ public class BookDTO {
     }
 
     public void setPublicationDate(String publicationDate) {
+
         this.publicationDate = publicationDate;
     }
 }
