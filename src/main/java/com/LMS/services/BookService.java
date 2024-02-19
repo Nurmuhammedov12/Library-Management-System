@@ -69,6 +69,7 @@ public class BookService {
         Teacher teacher = teacherService.findById(id);
         //Find Book
         Optional<Book> optionalBook = bookRepo.findById(bookId);
+        
             if(optionalBook.isEmpty()){
             Map<String,String> message = new HashMap<>();
             message.put("message", "Book is don't found");
