@@ -78,7 +78,7 @@ public class BookService {
 
         Book book = optionalBook.get();
 
-        //check exist book before add same book
+        //Check exist book before add same book
         boolean existbookinteacher = teacher.getBooks().stream().anyMatch(b-> b.getId().equals(book.getId()));
 
         if (existbookinteacher){
